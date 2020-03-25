@@ -8,6 +8,7 @@ public class StringsTest {
 
         String str1="The virus spread has began all over the world";
 
+        System.out.println(str.contains("virus"));
         System.out.println(str.concat(str1));
 
 
