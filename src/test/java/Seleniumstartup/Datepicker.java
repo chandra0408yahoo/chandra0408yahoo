@@ -30,13 +30,13 @@ Thread.sleep(2000);
         List<WebElement> columns = dateWidget.findElements(By.tagName("td"));
 
         System.out.println(columns.get(6).getText());
-
-        for (WebElement cell: columns) {
+        columns.stream().filter(x->x.getText().equals("13")).forEach(element ->element.click());
+       /* for (WebElement cell: columns) {
             //Select 13th Date
             if (cell.getText().equals("13")) {
                 cell.findElement(By.linkText("13")).click();
                 break;
             }
 
-        }
+        }*/
 }}

@@ -1,14 +1,15 @@
 package PracticePackage;
 
 public class PracticeSuite000 {
-int y;
-    public PracticeSuite000(int y){
-    y=this.y;
-}
+    int y;
 
-    int x=0;
+    public PracticeSuite000(int y) {
+        this.y = y;
+    }
 
-    public void testmethod(){
+    int x = 0;
+
+    public void testmethod() {
         System.out.println("hello");
     }
 

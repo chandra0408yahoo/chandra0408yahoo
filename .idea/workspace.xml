@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d52f76e2-1b67-4eb8-a17d-470a44f8473a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Seleniumstartup/LatestDownload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Seleniumstartup/RobotTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Seleniumstartup/quikrTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Seleniumstartup/windowsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PracticePackage/TestClass01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Strings/StringsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Strings/StringsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PracticePackage/PracticeSuite000.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PracticePackage/PracticeSuite000.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Seleniumstartup/Datepicker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Seleniumstartup/Datepicker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Seleniumstartup/Datepicker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Seleniumstartup/Datepicker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Strings/StringsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Strings/StringsTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,14 +50,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Constants" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java/Seleniumstartup" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.windowsTest.SeleniumTabTest">
+  <component name="RunManager" selected="Application.TestClass01">
     <configuration name="PracticeSuite001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PracticePackage.PracticeSuite001" />
       <module name="SamplJavaProject" />
@@ -73,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="readproperties" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seleniumstartup.readproperties" />
+    <configuration name="TestClass01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PracticePackage.TestClass01" />
       <module name="SamplJavaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Seleniumstartup.*" />
+          <option name="PATTERN" value="PracticePackage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,7 +93,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Selectt.Seleniumtest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Datepicker.SeleniumDatepicker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SamplJavaProject" />
       <extension name="coverage">
         <pattern>
@@ -95,14 +102,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Seleniumstartup" />
-      <option name="MAIN_CLASS_NAME" value="Seleniumstartup.Selectt" />
-      <option name="METHOD_NAME" value="Seleniumtest1" />
+      <option name="MAIN_CLASS_NAME" value="Seleniumstartup.Datepicker" />
+      <option name="METHOD_NAME" value="SeleniumDatepicker" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="alert.Seleniumtest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="alert.SeleniumTabTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SamplJavaProject" />
       <extension name="coverage">
         <pattern>
@@ -112,7 +119,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Seleniumstartup" />
       <option name="MAIN_CLASS_NAME" value="Seleniumstartup.alert" />
-      <option name="METHOD_NAME" value="Seleniumtest1" />
+      <option name="METHOD_NAME" value="SeleniumTabTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestClass01" />
+        <item itemvalue="JUnit.alert.SeleniumTabTest" />
+        <item itemvalue="JUnit.Datepicker.SeleniumDatepicker" />
         <item itemvalue="JUnit.windowsTest.SeleniumTabTest" />
         <item itemvalue="Application.PracticeSuite001" />
-        <item itemvalue="JUnit.alert.Seleniumtest1" />
-        <item itemvalue="Application.readproperties" />
-        <item itemvalue="JUnit.Selectt.Seleniumtest1" />
       </list>
     </recent_temporary>
   </component>
@@ -162,26 +169,26 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="709" y="276" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1584653634971" />
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1585074971343">
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1586551441068">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1585074971343" />
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1584654802186" />
-    <state width="1750" height="318" key="GridCell.Tab.0.center" timestamp="1585074971342">
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1586551441068" />
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1585659061944" />
+    <state width="1750" height="318" key="GridCell.Tab.0.center" timestamp="1586551441065">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1585074971342" />
-    <state width="1750" height="318" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1584654802185" />
-    <state width="1750" height="318" key="GridCell.Tab.0.left" timestamp="1585074971342">
+    <state width="1750" height="318" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1586551441065" />
+    <state width="1750" height="318" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1585659061944" />
+    <state width="1750" height="318" key="GridCell.Tab.0.left" timestamp="1586551441065">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1585074971342" />
-    <state width="1750" height="318" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1584654802185" />
-    <state width="1750" height="318" key="GridCell.Tab.0.right" timestamp="1585074971343">
+    <state width="1750" height="318" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1586551441065" />
+    <state width="1750" height="318" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1585659061943" />
+    <state width="1750" height="318" key="GridCell.Tab.0.right" timestamp="1586551441067">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="318" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1585074971343" />
-    <state width="1750" height="318" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1584654802185" />
+    <state width="1750" height="318" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1586551441067" />
+    <state width="1750" height="318" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1585659061944" />
     <state x="434" y="222" key="Maven.ArtifactSearchDialog" timestamp="1584869458172">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -194,14 +201,14 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="607" y="283" key="MultipleFileMergeDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1585155035308" />
-    <state x="397" y="199" key="SettingsEditor" timestamp="1584820760370">
+    <state x="397" y="199" key="SettingsEditor" timestamp="1585650491112">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1584820760370" />
-    <state x="573" y="376" key="com.intellij.ide.util.TipDialog" timestamp="1585484543622">
+    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1585650491112" />
+    <state x="573" y="376" key="com.intellij.ide.util.TipDialog" timestamp="1585648899272">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="573" y="376" key="com.intellij.ide.util.TipDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1585484543622" />
+    <state x="573" y="376" key="com.intellij.ide.util.TipDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1585648899272" />
     <state x="573" y="364" key="com.intellij.ide.util.TipDialog/0.23.1792.1017@0.23.1792.1017" timestamp="1584193672034" />
     <state x="273" y="257" key="new project wizard" timestamp="1584809005265">
       <screen x="0" y="0" width="1792" height="1120" />
