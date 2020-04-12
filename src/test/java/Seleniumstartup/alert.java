@@ -12,7 +12,7 @@ public class alert {
 
 
     @Test
-    public void SeleniumTabTest() {
+    public void SeleniumAlert() {
         WebDriverManager.chromedriver().clearPreferences();
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();

@@ -13,7 +13,7 @@ public class RobotTest {
     private WebDriver driver;
 
     @Test
-    public void SeleniumTabTest() throws AWTException, InterruptedException {
+    public void SeleniumRobot() throws AWTException, InterruptedException {
         WebDriverManager.chromedriver().clearPreferences();
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();

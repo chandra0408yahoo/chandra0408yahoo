@@ -13,7 +13,7 @@ public class windowsTest {
     private WebDriver driver;
 
     @Test
-    public void SeleniumTabTest() throws InterruptedException {
+    public void SeleniumWindow() throws InterruptedException {
         WebDriverManager.chromedriver().clearPreferences();
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
@@ -26,7 +26,7 @@ public class windowsTest {
         String firstpage=it.next();
         String secondpage=it.next();
         driver.switchTo().window(secondpage);
-        Thread.sleep(3000);
+        Thread.sleep(1500);
         driver.findElement(By.xpath("/html/body/div[2]/div[2]/section/div/article/nav/section[1]/div/div/div[1]/a")).click();
 
 

@@ -21,6 +21,6 @@ public class chromestartupwithAssert {
         driver = new ChromeDriver();
         driver.get("http://google.com");
         String expectedPageTitle = "Google";
-        Assert.assertEquals(driver.getTitle().contains(expectedPageTitle),  "Test Failed");
+        Assert.assertEquals(driver.getTitle(),expectedPageTitle);
     }
 }

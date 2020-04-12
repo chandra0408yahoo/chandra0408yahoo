@@ -14,7 +14,7 @@ public class dragdropwithiframe {
 
 
     @Test
-    public void Seleniumtest1() {
+    public void SeleniumDragDrop() {
         System.out.println("In test 1");
         WebDriverManager.chromedriver().clearPreferences();
         WebDriverManager.chromedriver().setup();

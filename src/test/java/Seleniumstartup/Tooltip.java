@@ -12,7 +12,7 @@ public class Tooltip {
 
 
     @Test
-    public void Seleniumtest1() {
+    public void SeleniumToolTip() {
 
         WebDriverManager.chromedriver().clearPreferences();
         WebDriverManager.chromedriver().setup();

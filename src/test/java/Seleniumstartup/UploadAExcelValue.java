@@ -12,7 +12,7 @@ public class UploadAExcelValue {
     @Test
     public void testxlsheet() throws IOException, BiffException {
 
-        FileInputStream fis = new FileInputStream("/Users/chandrapuli/IdeaProjects/SamplJavaProject/src/test/java/Seleniumstartup/TestFileBook1.xls");
+        FileInputStream fis = new FileInputStream("src/test/java/Seleniumstartup/TestFileBook1.xls");
         Workbook wb = Workbook.getWorkbook(fis);
 
         // TO get the access to the sheet

@@ -14,7 +14,7 @@ public class scrollingtobottom {
 
 
     @Test
-    public void Seleniumtest1() {
+    public void SeleniumScrollToBottom() {
         System.out.println("In test 1");
         DesiredCapabilities capability = DesiredCapabilities.chrome();
         // To Accept SSL certificate

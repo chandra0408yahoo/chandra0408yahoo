@@ -16,7 +16,7 @@ public class quikrTest {
 
 
     @Test
-    public void SeleniumTabTest() {
+    public void SeleniumQuikr() {
         WebDriverManager.chromedriver().clearPreferences();
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
@@ -30,7 +30,7 @@ public class quikrTest {
 
         fbe.stream().filter(x->x.isDisplayed()).count();
 
-        fbe.stream().filter(x->x.getText().equals("hello")).forEach(element ->element.click());;
+        fbe.stream().filter(x->x.getText().equals("Where is my order?")).forEach(element ->element.click());;
 
         /*list.stream().filter(element -> element.getAttribute("value").matches("Female"))
                 .forEach(element ->element.click());*/

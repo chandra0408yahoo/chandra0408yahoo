@@ -15,7 +15,7 @@ public class Selectt {
 
 
     @Test
-    public void Seleniumtest1() {
+    public void SeleniumSelect() {
         System.out.println("In test 1");
         WebDriverManager.chromedriver().clearPreferences();
         WebDriverManager.chromedriver().setup();
