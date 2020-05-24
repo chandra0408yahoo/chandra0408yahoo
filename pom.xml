@@ -93,11 +93,12 @@
             <version>${guava.version}</version>
             <scope>test</scope>
         </dependency>
+
+
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>${selenium-java.version}</version>
-            <scope>test</scope>
+            <version>4.0.0-alpha-3</version>
         </dependency>
         <dependency>
             <groupId>com.codeborne</groupId>
@@ -123,6 +124,7 @@
             <version>4.0.0-alpha-5</version>
             <scope>compile</scope>
         </dependency>
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
