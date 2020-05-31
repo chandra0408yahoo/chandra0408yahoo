@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d52f76e2-1b67-4eb8-a17d-470a44f8473a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Seleniumstartup/WikiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Seleniumstartup/relativeLocators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Seleniumstartup/remoteGridTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Seleniumstartup/TestFileBook1.xls" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Seleniumstartup/TestFileBook1.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Seleniumstartup/alert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Seleniumstartup/alert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Seleniumstartup/quikrTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Seleniumstartup/quikrTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Seleniumstartup/scrollingtobottom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Seleniumstartup/scrollingtobottom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Seleniumstartup/alert.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Seleniumstartup/alert.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Seleniumstartup/quikrTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Seleniumstartup/quikrTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Seleniumstartup/scrollingtobottom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Seleniumstartup/scrollingtobottom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Seleniumstartup/remoteGridTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Seleniumstartup/remoteGridTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Seleniumstartup/remoteGridTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Seleniumstartup/remoteGridTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,22 +96,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="alert.SeleniumAlert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SamplJavaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Seleniumstartup.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Seleniumstartup" />
-      <option name="MAIN_CLASS_NAME" value="Seleniumstartup.alert" />
-      <option name="METHOD_NAME" value="SeleniumAlert" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="quikrTest.SeleniumQuikr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SamplJavaProject" />
       <extension name="coverage">
@@ -152,13 +127,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="remoteGridTest.testGooglePageTitleInIEBrowser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SamplJavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Seleniumstartup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Seleniumstartup" />
+      <option name="MAIN_CLASS_NAME" value="Seleniumstartup.remoteGridTest" />
+      <option name="METHOD_NAME" value="testGooglePageTitleInIEBrowser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.remoteGridTest" />
+        <item itemvalue="JUnit.remoteGridTest.testGooglePageTitleInIEBrowser" />
         <item itemvalue="JUnit.Datepicker" />
         <item itemvalue="JUnit.WikiTest.WikiTest" />
         <item itemvalue="JUnit.quikrTest.SeleniumQuikr" />
-        <item itemvalue="JUnit.alert.SeleniumAlert" />
       </list>
     </recent_temporary>
   </component>
@@ -188,25 +179,25 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="584" y="303" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1586960989469" />
-    <state width="1750" height="358" key="GridCell.Tab.0.bottom" timestamp="1590359455823">
+    <state width="1750" height="358" key="GridCell.Tab.0.bottom" timestamp="1590362754022">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="358" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1590359455823" />
+    <state width="1750" height="358" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1590362754022" />
     <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1585659061944" />
-    <state width="1750" height="358" key="GridCell.Tab.0.center" timestamp="1590359455822">
+    <state width="1750" height="358" key="GridCell.Tab.0.center" timestamp="1590362754021">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="358" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1590359455822" />
+    <state width="1750" height="358" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1590362754021" />
     <state width="1750" height="318" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1585659061944" />
-    <state width="1750" height="358" key="GridCell.Tab.0.left" timestamp="1590359455821">
+    <state width="1750" height="358" key="GridCell.Tab.0.left" timestamp="1590362754021">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="358" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1590359455821" />
+    <state width="1750" height="358" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1590362754021" />
     <state width="1750" height="318" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1585659061943" />
-    <state width="1750" height="358" key="GridCell.Tab.0.right" timestamp="1590359455823">
+    <state width="1750" height="358" key="GridCell.Tab.0.right" timestamp="1590362754021">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="358" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1590359455823" />
+    <state width="1750" height="358" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1590362754021" />
     <state width="1750" height="318" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1585659061944" />
     <state width="1750" height="391" key="GridCell.Tab.1.bottom" timestamp="1587575084001">
       <screen x="0" y="0" width="1792" height="1120" />

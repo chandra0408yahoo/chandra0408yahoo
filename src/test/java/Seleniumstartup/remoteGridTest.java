@@ -25,7 +25,8 @@ public class remoteGridTest {
     public void testGooglePageTitleInIEBrowser() throws MalformedURLException {
         DesiredCapabilities cap=new DesiredCapabilities();
         cap.setBrowserName("chrome");
-        cap.setPlatform(Platform.MAC);
+        //cap.setPlatform(Platform.MAC);
+        cap.setPlatform(Platform.LINUX);
 
         System.setProperty("webdriver.chrome.driver","/Users/chandrapuli/seleniumgrid/chromedriver");
         ChromeOptions options = new ChromeOptions();
@@ -33,7 +34,7 @@ public class remoteGridTest {
         options.merge(cap);
 
 
-        driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), options);
+        driver = new RemoteWebDriver(new URL("http://localhost:4446/wd/hub"), options);
         driver.manage().window().maximize();
         System.out.println("*** Navigation to Application ***");
         driver.navigate().to(appURL);
@@ -43,12 +44,24 @@ public class remoteGridTest {
 
     }}
 
+  //  start hub
+
        /* java -jar /Users/chandrapuli/seleniumgrid/selenium-server-standalone-3.141.59.jar -role hub
 
 
-        java -jar /Users/chandrapuli/seleniumgrid/selenium-server-standalone-3.141.59.jar -role node -hub http://localhost:4444/grid/register -port 5556
+
+// start node
 
 
-
-        java -Dwebdriver.chrome.driver="/Users/chandrapuli/seleniumgrid/chromedriver" -jar /Users/chandrapuli/seleniumgrid/selenium-server-standalone-3.141.59.jar -role webdriver -hub http://192.168.1.115:4444/grid/register -port 5556
+  java -Dwebdriver.chrome.driver="/Users/chandrapuli/seleniumgrid/chromedriver" -jar /Users/chandrapuli/seleniumgrid/selenium-server-standalone-3.141.59.jar -role webdriver -hub http://192.168.1.115:4444/grid/register -port 5556
     }*/
+
+
+/*// docker start selenium grid
+
+    docker run -d -p 4446:4444 --name selenium-hub -P selenium/hub
+
+        // docker start node
+
+        docker run -d -P --link selenium-hub:hub selenium/node-chrome-debug*/
+
