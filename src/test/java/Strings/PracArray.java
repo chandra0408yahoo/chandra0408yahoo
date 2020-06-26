@@ -1,7 +1,8 @@
 package Strings;
 
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.List;
+import java.util.stream.Collectors;
 
 public class PracArray {
 
@@ -15,18 +16,27 @@ public class PracArray {
 
 
         ArrayList<String> str = new ArrayList<String>();
-        str.add("hello");
+        str.add("hellowerewefs");
+        str.add("Englanddfsdfsdfsdf");
+        str.add("Germanydfsfdsfsdf");
+        str.add("Norwayrerewrqw");
+        str.add("Norwayrerew");
+        str.add("India");
 
 
+        List<String> longnames =  str.stream().filter(x->x.contains("Norway")).collect(Collectors.toList());
 
-        HashMap<String, String> capitalCities = new HashMap<String, String>();
+        System.out.println(longnames.get(0));
+
+
+   /*     HashMap<String, String> capitalCities = new HashMap<String, String>();
 
         // Add keys and values (Country, City)
         capitalCities.put("England", "London");
         capitalCities.put("Germany", "Berlin");
         capitalCities.put("Norway", "Oslo");
         capitalCities.put("USA", "Washington DC");
-        System.out.println(capitalCities);
+        System.out.println(capitalCities);*/
 
 
     }

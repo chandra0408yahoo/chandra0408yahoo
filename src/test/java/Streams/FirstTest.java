@@ -1,9 +1,8 @@
 package Streams;
 
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.util.*;
+import java.util.Arrays;
+import java.util.List;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -16,15 +15,15 @@ public class FirstTest {
         Stream<String> stream = Stream.of("Geeks", "FOr",
                 "GEEKSQUIZ", "GeeksforGeeks");
 
-
-       Boolean value= list.stream().anyMatch(x->x%2==0);
-        System.out.println(value);
-
+        IntStream st= IntStream.of(1,2,4,56,66,99);
+       
 
 
 
-        //list1.stream().filter(x->!x.contains("Ammu"));
 
+Boolean str=list1.stream().allMatch(x->Character.isUpperCase(x.charAt(0)));
+
+        System.out.println(str);
 
     }
 

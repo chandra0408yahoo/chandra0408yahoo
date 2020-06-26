@@ -18,6 +18,4 @@ public class Cookies {
         String URL = "http://www.flipcart.com";
         driver.navigate().to(URL);
         driver.manage().deleteAllCookies();
-
-    }
-}
+}}

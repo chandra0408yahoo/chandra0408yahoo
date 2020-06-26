@@ -1,9 +1,8 @@
 package Strings;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
-public class List {
+public class List<S> {
 
 public static void main(String args[]) {
 

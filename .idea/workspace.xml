@@ -2,9 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d52f76e2-1b67-4eb8-a17d-470a44f8473a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fileName" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MockUI/Calcular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MockUI/CalculatorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MockUI/Icalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Seleniumstartup/car_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Seleniumstartup/car_output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Seleniumstartup/cartax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Seleniumstartup/getcapsletterfromfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Seleniumstartup/readlinebyline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Seleniumstartup/writeoutput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Seleniumstartup/remoteGridTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Seleniumstartup/remoteGridTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Seleniumstartup/remoteGridTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Seleniumstartup/remoteGridTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Seleniumstartup/Cookies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Seleniumstartup/Cookies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Streams/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Streams/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Strings/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Strings/List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Strings/PracArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Strings/PracArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/SamplJavaProject.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Seleniumstartup/Cookies.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Seleniumstartup/Cookies.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Streams/FirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Streams/FirstTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Strings/List.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Strings/List.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Strings/PracArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Strings/PracArray.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,41 +50,39 @@
         <option name="mavenHome" value="/usr/local/Cellar/maven/3.6.3_1/libexec" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectId" id="1Z7ce45NvcBkGjuLuW9u5HTLoTd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/Seleniumstartup" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.48390806" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java/Seleniumstartup" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Seleniumstartup" />
       <recent name="Constants" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/Seleniumstartup" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.remoteGridTest">
-    <configuration name="Datepicker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Calcular">
+    <configuration name="getcapsletterfromfile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seleniumstartup.getcapsletterfromfile" />
       <module name="SamplJavaProject" />
       <extension name="coverage">
         <pattern>
@@ -73,14 +90,52 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Seleniumstartup" />
-      <option name="MAIN_CLASS_NAME" value="Seleniumstartup.Datepicker" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="readlinebyline" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seleniumstartup.readlinebyline" />
+      <module name="SamplJavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Seleniumstartup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="writeoutput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seleniumstartup.writeoutput" />
+      <module name="SamplJavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Seleniumstartup.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Calcular" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SamplJavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MockUI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="MockUI" />
+      <option name="MAIN_CLASS_NAME" value="MockUI.Calcular" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WikiTest.WikiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="cartax.Seleniumcartax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SamplJavaProject" />
       <extension name="coverage">
         <pattern>
@@ -89,55 +144,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Seleniumstartup" />
-      <option name="MAIN_CLASS_NAME" value="Seleniumstartup.WikiTest" />
-      <option name="METHOD_NAME" value="WikiTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="quikrTest.SeleniumQuikr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SamplJavaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Seleniumstartup.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Seleniumstartup" />
-      <option name="MAIN_CLASS_NAME" value="Seleniumstartup.quikrTest" />
-      <option name="METHOD_NAME" value="SeleniumQuikr" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="remoteGridTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SamplJavaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Seleniumstartup.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Seleniumstartup" />
-      <option name="MAIN_CLASS_NAME" value="Seleniumstartup.remoteGridTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="remoteGridTest.testGooglePageTitleInIEBrowser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SamplJavaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Seleniumstartup.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Seleniumstartup" />
-      <option name="MAIN_CLASS_NAME" value="Seleniumstartup.remoteGridTest" />
-      <option name="METHOD_NAME" value="testGooglePageTitleInIEBrowser" />
+      <option name="MAIN_CLASS_NAME" value="Seleniumstartup.cartax" />
+      <option name="METHOD_NAME" value="Seleniumcartax" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.remoteGridTest" />
-        <item itemvalue="JUnit.remoteGridTest.testGooglePageTitleInIEBrowser" />
-        <item itemvalue="JUnit.Datepicker" />
-        <item itemvalue="JUnit.WikiTest.WikiTest" />
-        <item itemvalue="JUnit.quikrTest.SeleniumQuikr" />
+        <item itemvalue="JUnit.Calcular" />
+        <item itemvalue="Application.writeoutput" />
+        <item itemvalue="Application.getcapsletterfromfile" />
+        <item itemvalue="JUnit.cartax.Seleniumcartax" />
+        <item itemvalue="Application.readlinebyline" />
       </list>
     </recent_temporary>
   </component>
@@ -179,26 +187,26 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="584" y="303" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1586960989469" />
-    <state width="1750" height="358" key="GridCell.Tab.0.bottom" timestamp="1590362754022">
+    <state width="1750" height="339" key="GridCell.Tab.0.bottom" timestamp="1593180301588">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="358" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1590362754022" />
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1585659061944" />
-    <state width="1750" height="358" key="GridCell.Tab.0.center" timestamp="1590362754021">
+    <state width="1750" height="339" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1593180301588" />
+    <state width="1750" height="339" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1592100883006" />
+    <state width="1750" height="339" key="GridCell.Tab.0.center" timestamp="1593180301587">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="358" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1590362754021" />
-    <state width="1750" height="318" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1585659061944" />
-    <state width="1750" height="358" key="GridCell.Tab.0.left" timestamp="1590362754021">
+    <state width="1750" height="339" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1593180301587" />
+    <state width="1750" height="339" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1592100883006" />
+    <state width="1750" height="339" key="GridCell.Tab.0.left" timestamp="1593180301587">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="358" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1590362754021" />
-    <state width="1750" height="318" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1585659061943" />
-    <state width="1750" height="358" key="GridCell.Tab.0.right" timestamp="1590362754021">
+    <state width="1750" height="339" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1593180301587" />
+    <state width="1750" height="339" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1592100883005" />
+    <state width="1750" height="339" key="GridCell.Tab.0.right" timestamp="1593180301587">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="358" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1590362754021" />
-    <state width="1750" height="318" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1585659061944" />
+    <state width="1750" height="339" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1593180301587" />
+    <state width="1750" height="339" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1592100883006" />
     <state width="1750" height="391" key="GridCell.Tab.1.bottom" timestamp="1587575084001">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
@@ -227,18 +235,17 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="607" y="283" key="MultipleFileMergeDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1585155035308" />
-    <state x="397" y="199" key="SettingsEditor" timestamp="1585650491112">
+    <state x="397" y="199" key="SettingsEditor" timestamp="1592042664458">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1585650491112" />
-    <state x="573" y="376" key="com.intellij.ide.util.TipDialog" timestamp="1589378972433">
+    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1592042664458" />
+    <state x="573" y="376" key="com.intellij.ide.util.TipDialog" timestamp="1591033103276">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="573" y="376" key="com.intellij.ide.util.TipDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1589378972433" />
-    <state x="573" y="364" key="com.intellij.ide.util.TipDialog/0.23.1792.1017@0.23.1792.1017" timestamp="1584193672034" />
-    <state x="273" y="257" key="new project wizard" timestamp="1586879146619">
+    <state x="573" y="376" key="com.intellij.ide.util.TipDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1591033103276" />
+    <state x="273" y="257" key="new project wizard" timestamp="1590940090242">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="273" y="257" key="new project wizard/0.0.1792.1120@0.0.1792.1120" timestamp="1586879146619" />
+    <state x="273" y="257" key="new project wizard/0.0.1792.1120@0.0.1792.1120" timestamp="1590940090242" />
   </component>
 </project>
