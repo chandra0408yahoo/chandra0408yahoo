@@ -3,6 +3,7 @@ package Streams;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -16,14 +17,17 @@ public class FirstTest {
                 "GEEKSQUIZ", "GeeksforGeeks");
 
         IntStream st= IntStream.of(1,2,4,56,66,99);
-       
+
+  // list1.stream().flatMapToInt(x->IntStream.of(x.length())).forEach(System.out::println);
+
+
+        System.out.println(  list.stream().collect(Collectors.counting()));
 
 
 
+      //  System.out.println(result);
 
-Boolean str=list1.stream().allMatch(x->Character.isUpperCase(x.charAt(0)));
 
-        System.out.println(str);
 
     }
 

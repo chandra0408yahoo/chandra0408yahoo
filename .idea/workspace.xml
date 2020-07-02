@@ -2,28 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d52f76e2-1b67-4eb8-a17d-470a44f8473a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fileName" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MockUI/Calcular.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MockUI/CalculatorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MockUI/Icalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Seleniumstartup/car_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Seleniumstartup/car_output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Seleniumstartup/cartax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Seleniumstartup/getcapsletterfromfile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Seleniumstartup/readlinebyline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Seleniumstartup/writeoutput.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Seleniumstartup/Cookies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Seleniumstartup/Cookies.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Streams/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Streams/FirstTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Strings/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Strings/List.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Strings/PracArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Strings/PracArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/SamplJavaProject.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Seleniumstartup/Cookies.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Seleniumstartup/Cookies.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Streams/FirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Streams/FirstTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Strings/List.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Strings/List.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Strings/PracArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Strings/PracArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Strings/StringsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Strings/StringsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,13 +61,13 @@
       <recent name="$PROJECT_DIR$/src/test/java/Seleniumstartup" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Calcular">
-    <configuration name="getcapsletterfromfile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seleniumstartup.getcapsletterfromfile" />
+  <component name="RunManager" selected="Application.List">
+    <configuration name="FirstTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Streams.FirstTest" />
       <module name="SamplJavaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Seleniumstartup.*" />
+          <option name="PATTERN" value="Streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,8 +75,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="readlinebyline" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Seleniumstartup.readlinebyline" />
+    <configuration name="List" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.List" />
+      <module name="SamplJavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="getcapsletterfromfile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seleniumstartup.getcapsletterfromfile" />
       <module name="SamplJavaProject" />
       <extension name="coverage">
         <pattern>
@@ -135,29 +129,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cartax.Seleniumcartax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SamplJavaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Seleniumstartup.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Seleniumstartup" />
-      <option name="MAIN_CLASS_NAME" value="Seleniumstartup.cartax" />
-      <option name="METHOD_NAME" value="Seleniumcartax" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.List" />
+        <item itemvalue="Application.FirstTest" />
         <item itemvalue="JUnit.Calcular" />
         <item itemvalue="Application.writeoutput" />
         <item itemvalue="Application.getcapsletterfromfile" />
-        <item itemvalue="JUnit.cartax.Seleniumcartax" />
-        <item itemvalue="Application.readlinebyline" />
       </list>
     </recent_temporary>
   </component>
@@ -179,33 +157,29 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="100" y="100" width="1592" height="920" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1586613317404" />
-    <state x="709" y="276" key="#com.intellij.ide.util.MemberChooser" timestamp="1584653634971">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="709" y="276" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1584653634971" />
     <state x="584" y="303" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586960989469">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="584" y="303" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1586960989469" />
-    <state width="1750" height="339" key="GridCell.Tab.0.bottom" timestamp="1593180301588">
+    <state width="1750" height="339" key="GridCell.Tab.0.bottom" timestamp="1593584240259">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="339" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1593180301588" />
+    <state width="1750" height="339" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1593584240259" />
     <state width="1750" height="339" key="GridCell.Tab.0.bottom/0.23.1792.1017@0.23.1792.1017" timestamp="1592100883006" />
-    <state width="1750" height="339" key="GridCell.Tab.0.center" timestamp="1593180301587">
+    <state width="1750" height="339" key="GridCell.Tab.0.center" timestamp="1593584240258">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="339" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1593180301587" />
+    <state width="1750" height="339" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1593584240258" />
     <state width="1750" height="339" key="GridCell.Tab.0.center/0.23.1792.1017@0.23.1792.1017" timestamp="1592100883006" />
-    <state width="1750" height="339" key="GridCell.Tab.0.left" timestamp="1593180301587">
+    <state width="1750" height="339" key="GridCell.Tab.0.left" timestamp="1593584240258">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="339" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1593180301587" />
+    <state width="1750" height="339" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1593584240258" />
     <state width="1750" height="339" key="GridCell.Tab.0.left/0.23.1792.1017@0.23.1792.1017" timestamp="1592100883005" />
-    <state width="1750" height="339" key="GridCell.Tab.0.right" timestamp="1593180301587">
+    <state width="1750" height="339" key="GridCell.Tab.0.right" timestamp="1593584240258">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1750" height="339" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1593180301587" />
+    <state width="1750" height="339" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1593584240258" />
     <state width="1750" height="339" key="GridCell.Tab.0.right/0.23.1792.1017@0.23.1792.1017" timestamp="1592100883006" />
     <state width="1750" height="391" key="GridCell.Tab.1.bottom" timestamp="1587575084001">
       <screen x="0" y="0" width="1792" height="1120" />

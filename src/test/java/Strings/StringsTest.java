@@ -10,7 +10,7 @@ public class StringsTest {
 
 //        System.out.println(str.contains("virus"));
         System.out.println(str.contains("virus"));
-        System.out.println(str.concat(str1));
+        System.out.println(str.split(" ",2));
 
 
     }
